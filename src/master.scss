@@ -1,14 +1,12 @@
-@import 'partials/_common/scss';
+@import 'partials/_variables.scss';
+@import 'partials/_common.scss';
+@import 'partials/_header.scss';
+@import 'partials/_navbar.scss';
+
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
-}
-
-$primary: blue;
-
-p {
-  color: $primary;
 }

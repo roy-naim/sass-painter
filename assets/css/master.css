@@ -1,3 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mx-20 {
+  margin: 0 20px;
+}
+
+header .top-navbar {
+  display: flex;
+  justify-content: flex-end;
+  color: #009cff;
+  padding: 10px 0;
+}
+header .top-navbar span {
+  color: #999;
+  font-size: 12px;
+  vertical-align: middle;
+}
+header .top-navbar span i {
+  color: #009cff;
+}
+
 * {
   margin: 0;
   padding: 0;

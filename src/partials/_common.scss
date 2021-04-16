@@ -1,5 +1,26 @@
-$primary: blue;
+body {
+  font-family: $font_family;
+}
 
-p {
-  color: $primary;
+header {
+  background-color: $header_primary;
+  color: $text_white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mx-20 {
+  margin: 0 20px;
 }

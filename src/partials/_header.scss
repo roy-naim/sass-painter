@@ -1,0 +1,18 @@
+@import '_navbar.scss';
+
+header {
+  .top-navbar {
+    display: flex;
+    justify-content: flex-end;
+    color: $icon;
+    padding: 10px 0;
+    span {
+      color: $text_grey;
+      font-size: 12px;
+      vertical-align: middle;
+      i {
+        color: $icon;
+      }
+    }
+  }
+}
