@@ -17,10 +17,18 @@ a {
   color: inherit;
 }
 
+ul, li {
+  list-style: none;
+}
+
+i {
+  margin: 0 5px;
+}
+
 .mx-10 {
   margin: 0 10px;
 }
 
-.mx-20 {
-  margin: 0 20px;
+.py-15 {
+  padding: 15px 0;
 }

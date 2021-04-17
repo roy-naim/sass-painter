@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  .painter-logo img {
+    width: 90px;
+  }
+  .list-dropdown ul {
+    display: flex;
+
+    li {
+      margin: 0 25px;
+      font-size: 13px;
+      i {
+        color: $text_grey;
+      }
+    }
+  }
+}

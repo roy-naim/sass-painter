@@ -17,12 +17,38 @@ a {
   color: inherit;
 }
 
+ul, li {
+  list-style: none;
+}
+
+i {
+  margin: 0 5px;
+}
+
 .mx-10 {
   margin: 0 10px;
 }
 
-.mx-20 {
-  margin: 0 20px;
+.py-15 {
+  padding: 15px 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .painter-logo img {
+  width: 90px;
+}
+.navbar .list-dropdown ul {
+  display: flex;
+}
+.navbar .list-dropdown ul li {
+  margin: 0 25px;
+  font-size: 13px;
+}
+.navbar .list-dropdown ul li i {
+  color: #999;
 }
 
 header .top-navbar {
@@ -38,6 +64,24 @@ header .top-navbar span {
 }
 header .top-navbar span i {
   color: #009cff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .painter-logo img {
+  width: 90px;
+}
+.navbar .list-dropdown ul {
+  display: flex;
+}
+.navbar .list-dropdown ul li {
+  margin: 0 25px;
+  font-size: 13px;
+}
+.navbar .list-dropdown ul li i {
+  color: #999;
 }
 
 * {
