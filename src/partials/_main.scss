@@ -1,0 +1,45 @@
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .box {
+    width: calc(100%/3 - 15px);
+    // margin-right: 15px;
+    background-color: #fff;
+
+    img {
+      width: 100%;
+    }
+  }
+  .info-box {
+    p {
+      padding: 10px 0;
+    }
+  }
+}
+
+.main-rectangle {
+  display: flex;
+  flex-wrap: wrap;
+  .rectangle {
+    width: calc(100%/2);
+    height: 300px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+    #special {
+      width: 80%;
+      height: auto;
+    }
+  }
+  .rect-img {
+    background-image: url("../img/wacom-painter.jpg");
+    background-size: cover;
+    height: 300px;
+    & #special {
+      width: 80%;
+      height: auto;
+    }
+  }
+}
