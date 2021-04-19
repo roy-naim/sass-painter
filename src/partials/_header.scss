@@ -18,6 +18,17 @@ header {
   .jumbotron {
     background-image: url("../img/bg-painter-home.jpg");
     background-size: cover;
-    height: 68vh;
+    // height: 68vh;
+    .logo-2021 {
+      img {
+        width: 220px;
+      }
+    }
+    .pink-text {
+      color: $text_pink;
+      font-style: italic;
+    }
+
+
   }
 }
