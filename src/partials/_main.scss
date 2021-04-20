@@ -12,10 +12,15 @@
     }
   }
   .info-box {
+    padding: 15px;
     p {
       padding: 10px 0;
     }
   }
+}
+
+.middle {
+  color: $text_white;
 }
 
 .main-rectangle {
@@ -31,6 +36,11 @@
     #special {
       width: 80%;
       height: auto;
+    }
+    .text-middle {
+      h3, p, button {
+        padding: 12px 0;
+      }
     }
   }
   .rect-img {

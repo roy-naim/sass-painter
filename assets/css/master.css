@@ -60,7 +60,7 @@ main {
   background-color: #009cff;
 }
 
-h1 {
+h1, h3 {
   font-weight: normal;
   font-size: 2em;
 }
@@ -90,6 +90,20 @@ i {
 .my-15 {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.my-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .py-15 {
@@ -176,8 +190,15 @@ header .jumbotron .pink-text {
 .main-box .box img {
   width: 100%;
 }
+.main-box .info-box {
+  padding: 15px;
+}
 .main-box .info-box p {
   padding: 10px 0;
+}
+
+.middle {
+  color: white;
 }
 
 .main-rectangle {
@@ -196,6 +217,9 @@ header .jumbotron .pink-text {
   width: 80%;
   height: auto;
 }
+.main-rectangle .rectangle .text-middle h3, .main-rectangle .rectangle .text-middle p, .main-rectangle .rectangle .text-middle button {
+  padding: 12px 0;
+}
 .main-rectangle .rect-img {
   background-image: url("../img/wacom-painter.jpg");
   background-size: cover;
@@ -204,6 +228,14 @@ header .jumbotron .pink-text {
 .main-rectangle .rect-img #special {
   width: 80%;
   height: auto;
+}
+
+.first-footer {
+  background-color: #ECECEC;
+}
+.first-footer .one-footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 * {
